@@ -1,0 +1,43 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Pc2ORQp+VY3Un/dkh4QwLC7R6lE=",
+			"path": "github.com/BurntSushi/toml",
+			"revision": "a368813c5e648fee92e5f6c30e3944ff9d5e8895",
+			"revisionTime": "2017-06-26T11:06:00Z"
+		},
+		{
+			"checksumSHA1": "2Jy8ibzL8kHuenZI0LAvCLI1e98=",
+			"path": "github.com/facebookgo/grace/gracehttp",
+			"revision": "4afe952a37a495ae4ac0c1d4ce5f66e91058d149",
+			"revisionTime": "2017-02-18T22:52:39Z"
+		},
+		{
+			"checksumSHA1": "178ebwKMX/plldM2EKeT7pj3vs8=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "2cc627ac8defc45d65066ae98f898166f580f9a4",
+			"revisionTime": "2018-01-13T20:07:44Z"
+		},
+		{
+			"checksumSHA1": "fSs1WcPh2F5JJtxqYC+Jt8yCkYc=",
+			"path": "github.com/gorilla/mux",
+			"revision": "5bbbb5b2b5729b132181cc7f4aa3b3c973e9a0ed",
+			"revisionTime": "2018-01-07T15:57:08Z"
+		},
+		{
+			"checksumSHA1": "QmAzbypFddS3Tl/HDca0X0zXZ/M=",
+			"path": "github.com/jmoiron/sqlx",
+			"revision": "de8647470aafe4854c976707c431dbe1eb2822c6",
+			"revisionTime": "2017-12-11T23:49:05Z"
+		},
+		{
+			"checksumSHA1": "SArsdzHGo5E7EfmU0aJ+KOp7kRQ=",
+			"path": "github.com/karlkfi/inject",
+			"revision": "27c5323a07f81a37802552bb0734fc4bb649aaa1",
+			"revisionTime": "2017-08-08T01:33:36Z"
+		}
+	],
+	"rootPath": "github.com/syariatifaris/transactionapp"
+}

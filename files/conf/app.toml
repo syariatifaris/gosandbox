@@ -1,0 +1,7 @@
+[Database]
+DBHost = "localhost"
+DBType = "mysql"
+DBName = "db.gosandbox"
+DBUser = "root"
+DBPassword = "toor"
+DBPort = 3306
