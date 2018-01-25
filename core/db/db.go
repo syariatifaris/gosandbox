@@ -2,6 +2,7 @@ package db
 
 import (
 	"database/sql"
+	"fmt"
 
 	"github.com/syariatifaris/gosandbox/core/config"
 	sqlx "github.com/syariatifaris/gosandbox/core/db/sqlx"
@@ -24,6 +25,8 @@ func NewRelationalDBConnection(dbConfig config.Database) (DB, error) {
 }
 
 func NewInjectRelationalDBConnection(cfg *config.ConfigurationData) DB {
+	something := "Faris"
+	fmt.Println(something)
 	sqlxConn, _ := NewRelationalDBConnection(cfg.Database)
 	return sqlxConn
 }

@@ -30,8 +30,13 @@ func (c *OrderHandler) Name() string {
 }
 
 func (c *OrderHandler) RegisterHandlers(muxRouter *mux.Router) {
+	muxRouter.HandleFunc("/order/test", middleware.Handle(c.Test)).Methods(http.MethodGet)
 	muxRouter.HandleFunc("/order/get/", middleware.Handle(c.GetOrderById)).Methods(http.MethodGet)
 	muxRouter.HandleFunc("/order/update", middleware.Handle(c.UpdateOrderHandler)).Methods(http.MethodPost)
+}
+
+func (c *OrderHandler) Test(w http.ResponseWriter, r *http.Request) {
+	render(w, "test data", nil)
 }
 
 func (c *OrderHandler) UpdateOrderHandler(w http.ResponseWriter, r *http.Request) {
