@@ -27,7 +27,7 @@ func NewDependencies() inject.Graph {
 	graph.Define(&configuration, inject.NewProvider(config.NewConfiguration))
 
 	//inject database
-	graph.Define(&relationalDb, inject.NewProvider(rdb.NewInjectRelationalDBConnection, &configuration))
+	//graph.Define(&relationalDb, inject.NewProvider(rdb.NewInjectRelationalDBConnection, &configuration))
 	//inject router
 	graph.Define(&router, inject.NewProvider(mux.NewRouter))
 

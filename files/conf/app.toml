@@ -1,7 +1,7 @@
 [Database]
-DBHost = "localhost"
+DBHost = "beliindog.com"
 DBType = "mysql"
-DBName = "db.gosandbox"
-DBUser = "root"
-DBPassword = "toor"
+DBName = "u6536288_beliindong_master"
+DBUser = "u6536288_bd"
+DBPassword = "beliindong2016"
 DBPort = 3306
