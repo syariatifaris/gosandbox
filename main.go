@@ -25,6 +25,7 @@ func main() {
 	}
 
 	//Do some test 1
+	//Do some test 2
 	// serve and listen for shutdown signals
 	gracehttp.Serve(
 		&http.Server{Addr: "0.0.0.0:8080", Handler: muxRouter},
